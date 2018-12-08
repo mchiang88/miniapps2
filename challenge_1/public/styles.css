@@ -2,9 +2,9 @@ body {
   background-color: lightblue;
 }
 
-#main {
+/* #main {
 
-}
+} */
 
 input::placeholder {
   font-weight: bold;
@@ -35,4 +35,49 @@ input[type="search"] {
   font-weight: bold;
   font-style: italic;
   border-radius: 6px;
+  min-width: 536px;
+}
+
+#searchSvg {
+  pointer-events: none;
+  display: block;
+  width: 19px;
+  height: 19px;
+  margin: 0 auto;
+}
+
+button {
+  margin-left: 4px;
+  position: relative;
+  top: 5px;
+  width: 40px;
+  padding-bottom: 1px;
+  border-radius: 2px;
+  background-color: grey;
+  outline: none;
+}
+
+button:hover {
+  background-color: rgb(189, 189, 189);
+}
+
+.active {
+  color: red;
+}
+
+.listitem {
+  margin-top: 10px;
+}
+
+ul {
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+li {
+  display: inline-block;
+  margin-right: 4px;
+  border-radius: 50%;
+  border-color: yellow;
 }
