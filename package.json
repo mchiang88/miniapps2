@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "start": "json-server --watch ./challenge_1/data/db.json"
+    "build": "webpack --watch -D",
+    "start": "json-server --watch ./challenge_1/data/db.json --static ./challenge_1/public"
   },
   "repository": {
     "type": "git",
