@@ -4,8 +4,8 @@ import ReactDOM from 'react-dom';
 import App from './components/app';
 
 ReactDOM.render((
-    <div>
-      
+    <div id='main'>
+      <App />
     </div>
   ), document.getElementById('app')
 );

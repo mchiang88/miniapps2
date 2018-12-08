@@ -1,0 +1,38 @@
+body {
+  background-color: lightblue;
+}
+
+#main {
+
+}
+
+input::placeholder {
+  font-weight: bold;
+  font-style: italic;
+}
+
+#searchbar {
+  line-height: 20px;
+  width: 400px;
+  border-style: none;
+  background-color: lightblue;
+  margin-left: 40px;
+  outline: none;
+  border-radius: 3px;
+}
+
+input[type="search"] {
+  font-weight: bold;
+  font-style: italic;
+}
+
+#search-container {
+  display: inline-block;
+  width: 100%;
+  background-color: rgb(50, 98, 114);
+  line-height: 60px;
+  vertical-align: middle;
+  font-weight: bold;
+  font-style: italic;
+  border-radius: 6px;
+}

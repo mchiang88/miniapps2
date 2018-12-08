@@ -18,7 +18,9 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Search />
+        <div id='search-container'>
+          <Search searchChange={this.searchChange} />
+        </div>
         Rendering
       </div>
     )
@@ -27,7 +29,7 @@ class App extends React.Component {
 
 const Search = (props) => (
   <div>
-    <input type='text' name='searchbar' placeholfrt='Search for events' onChange={props.searchChange} ></input>
+    <input id='searchbar' type='search' name='searchbar' placeholder='Search for events' onChange={props.searchChange}></input>
   </div>
 );
 
